@@ -1,0 +1,38 @@
+{
+    "name": "bdelespierre/process-street-php-sdk",
+    "description": "Provides SDK for ProcessStreet",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Delespierre",
+            "email": "benjamin.delespierre@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev",
+        "phpstan/phpstan": "1.7.x-dev",
+        "squizlabs/php_codesniffer": "4.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProcessStreet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Demo\\": "demo/"
+        }
+    },
+    "scripts": {
+        "build": ["@test", "@check-style", "@check-types"],
+        "check-style": "phpcs",
+        "check-types": "phpstan --no-ansi",
+        "fix-style": "phpcbf",
+        "test": "phpunit"
+    }
+}

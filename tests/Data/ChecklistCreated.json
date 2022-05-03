@@ -1,0 +1,42 @@
+{
+    "createdDate": "2022-03-29T16:22:29.017Z",
+    "data": {
+        "id": "ocEMmTpockp6e8Aw9EhIRg",
+        "name": "6:22PM workflow run",
+        "audit": {
+            "createdDate": "2022-03-29T16:22:28.880Z",
+            "createdBy": {
+                "id": "jYjECYhmNZVxXVLMgDFJ8A",
+                "email": "john.doe@example.com",
+                "username": "John Doe"
+            },
+            "updatedDate": "2022-03-29T16:22:28.880Z",
+            "updatedBy": {
+                "id": "jYjECYhmNZVxXVLMgDFJ8A",
+                "email": "john.doe@example.com",
+                "username": "John Doe"
+            }
+        },
+        "template": {
+            "id": "vPcdWhxatMZIbYFlgyhDWQ",
+            "name": "Test Workflow"
+        },
+        "formFields": [],
+        "tasks": [{
+            "id": "uj_SAfMmrkCBnUwbG11PHg",
+            "updatedDate": "2022-03-29T16:22:28.898Z",
+            "updatedBy": {
+                "id": "jYjECYhmNZVxXVLMgDFJ8A",
+                "email": "john.doe@example.com",
+                "username": "John Doe"
+            },
+            "status": "NotCompleted",
+            "stopped": false,
+            "hidden": false,
+            "name": "Test Task #1",
+            "taskTemplateGroupId": "uIEm_NK44a_g4ugvqphA3Q"
+        }]
+    },
+    "id": "pHnWErntCr9LXvkZ5AROYg",
+    "type": "ChecklistCreated"
+}
